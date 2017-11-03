@@ -19,6 +19,6 @@ setup(
         'License :: OSI Approved :: BSD License',
         ],
     platforms='any',
-    py_packages=['jsonconfigparser', 'jsonconfigparser.tests'],
+    packages=['jsonconfigparser', 'jsonconfigparser.tests'],
     test_suite='jsonconfigparser.tests.suite',
     )
